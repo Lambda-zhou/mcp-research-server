@@ -1,0 +1,472 @@
+version = 1
+requires-python = ">=3.10"
+
+[[package]]
+name = "annotated-types"
+version = "0.7.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/annotated-types/0.7.0/annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53" },
+]
+
+[[package]]
+name = "anyio"
+version = "4.9.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "exceptiongroup", marker = "python_full_version < '3.11'" },
+    { name = "idna" },
+    { name = "sniffio" },
+    { name = "typing-extensions", marker = "python_full_version < '3.13'" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/anyio/4.9.0/anyio-4.9.0.tar.gz", hash = "sha256:673c0c244e15788651a4ff38710fea9675823028a6f08a5eda409e0c9840a028" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/anyio/4.9.0/anyio-4.9.0-py3-none-any.whl", hash = "sha256:9f76d541cad6e36af7beb62e978876f3b41e3e04f2c1fbf0884604c0a9c4d93c" },
+]
+
+[[package]]
+name = "arxiv"
+version = "2.1.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "feedparser" },
+    { name = "requests" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/arxiv/2.1.0/arxiv-2.1.0.tar.gz", hash = "sha256:eb4b1d5ab9dfd66027c344bb324c20be21d56fe15f6ce216ed5b209df747dea8" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/arxiv/2.1.0/arxiv-2.1.0-py3-none-any.whl", hash = "sha256:d634a0a59c9f05baf524eaa65563bb0a4532d2b4727a1162a1a9ba7e1e6e48cc" },
+]
+
+[[package]]
+name = "certifi"
+version = "2025.1.31"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/certifi/2025.1.31/certifi-2025.1.31.tar.gz", hash = "sha256:3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/certifi/2025.1.31/certifi-2025.1.31-py3-none-any.whl", hash = "sha256:ca78db4565a652026a4db2bcdf68f2fb589ea80d0be70e03929ed730746b84fe" },
+]
+
+[[package]]
+name = "charset-normalizer"
+version = "3.4.1"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1.tar.gz", hash = "sha256:44251f18cd68a75b56585dd00dae26183e102cd5e0f9f1466e6df5da2ed64ea3" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:8bfa33f4f2672964266e940dd22a195989ba31669bd84629f05fab3ef4e2d125" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:28bf57629c75e810b6ae989f03c0828d64d6b26a5e205535585f96093e405ed1" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:f08ff5e948271dc7e18a35641d2f11a4cd8dfd5634f55228b691e62b37125eb3" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:234ac59ea147c59ee4da87a0c0f098e9c8d169f4dc2a159ef720f1a61bbe27cd" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fd4ec41f914fa74ad1b8304bbc634b3de73d2a0889bd32076342a573e0779e00" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:eea6ee1db730b3483adf394ea72f808b6e18cf3cb6454b4d86e04fa8c4327a12" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:73d94b58ec7fecbc7366247d3b0b10a21681004153238750bb67bd9012414545" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:dad3e487649f498dd991eeb901125411559b22e8d7ab25d3aeb1af367df5efd7" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:c30197aa96e8eed02200a83fba2657b4c3acd0f0aa4bdc9f6c1af8e8962e0757" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:2369eea1ee4a7610a860d88f268eb39b95cb588acd7235e02fd5a5601773d4fa" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bc2722592d8998c870fa4e290c2eec2c1569b87fe58618e67d38b4665dfa680d" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:ffc9202a29ab3920fa812879e95a9e78b2465fd10be7fcbd042899695d75e616" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/charset-normalizer/3.4.1/charset_normalizer-3.4.1-py3-none-any.whl", hash = "sha256:d98b1668f06378c6dbefec3b92299716b931cd4e6061f3c875a71ced1780ab85" },
+]
+
+[[package]]
+name = "click"
+version = "8.1.8"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/click/8.1.8/click-8.1.8.tar.gz", hash = "sha256:ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/click/8.1.8/click-8.1.8-py3-none-any.whl", hash = "sha256:63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2" },
+]
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/colorama/0.4.6/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/colorama/0.4.6/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6" },
+]
+
+[[package]]
+name = "exceptiongroup"
+version = "1.2.2"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/exceptiongroup/1.2.2/exceptiongroup-1.2.2.tar.gz", hash = "sha256:47c2edf7c6738fafb49fd34290706d1a1a2f4d1c6df275526b62cbb4aa5393cc" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/exceptiongroup/1.2.2/exceptiongroup-1.2.2-py3-none-any.whl", hash = "sha256:3111b9d131c238bec2f8f516e123e14ba243563fb135d3fe885990585aa7795b" },
+]
+
+[[package]]
+name = "fastmcp"
+version = "0.4.1"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "mcp" },
+    { name = "pydantic" },
+    { name = "pydantic-settings" },
+    { name = "python-dotenv" },
+    { name = "typer" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/fastmcp/0.4.1/fastmcp-0.4.1.tar.gz", hash = "sha256:713ad3b8e4e04841c9e2f3ca022b053adb89a286ceffad0d69ae7b56f31cbe64" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/fastmcp/0.4.1/fastmcp-0.4.1-py3-none-any.whl", hash = "sha256:664b42c376fb89ec90a50c9433f5a1f4d24f36696d6c41b024b427ae545f9619" },
+]
+
+[[package]]
+name = "feedparser"
+version = "6.0.10"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "sgmllib3k" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/feedparser/6.0.10/feedparser-6.0.10.tar.gz", hash = "sha256:27da485f4637ce7163cdeab13a80312b93b7d0c1b775bef4a47629a3110bca51" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/feedparser/6.0.10/feedparser-6.0.10-py3-none-any.whl", hash = "sha256:79c257d526d13b944e965f6095700587f27388e50ea16fd245babe4dfae7024f" },
+]
+
+[[package]]
+name = "h11"
+version = "0.16.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/h11/0.16.0/h11-0.16.0.tar.gz", hash = "sha256:4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/h11/0.16.0/h11-0.16.0-py3-none-any.whl", hash = "sha256:63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86" },
+]
+
+[[package]]
+name = "httpcore"
+version = "1.0.9"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "certifi" },
+    { name = "h11" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/httpcore/1.0.9/httpcore-1.0.9.tar.gz", hash = "sha256:6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/httpcore/1.0.9/httpcore-1.0.9-py3-none-any.whl", hash = "sha256:2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55" },
+]
+
+[[package]]
+name = "httpx"
+version = "0.28.1"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "certifi" },
+    { name = "httpcore" },
+    { name = "idna" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/httpx/0.28.1/httpx-0.28.1.tar.gz", hash = "sha256:75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/httpx/0.28.1/httpx-0.28.1-py3-none-any.whl", hash = "sha256:d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad" },
+]
+
+[[package]]
+name = "httpx-sse"
+version = "0.4.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/httpx-sse/0.4.0/httpx-sse-0.4.0.tar.gz", hash = "sha256:1e81a3a3070ce322add1d3529ed42eb5f70817f45ed6ec915ab753f961139721" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/httpx-sse/0.4.0/httpx_sse-0.4.0-py3-none-any.whl", hash = "sha256:f329af6eae57eaa2bdfd962b42524764af68075ea87370a2de920af5341e318f" },
+]
+
+[[package]]
+name = "idna"
+version = "3.10"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/idna/3.10/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/idna/3.10/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3" },
+]
+
+[[package]]
+name = "markdown-it-py"
+version = "3.0.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "mdurl" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/markdown-it-py/3.0.0/markdown-it-py-3.0.0.tar.gz", hash = "sha256:e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/markdown-it-py/3.0.0/markdown_it_py-3.0.0-py3-none-any.whl", hash = "sha256:355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1" },
+]
+
+[[package]]
+name = "mcp"
+version = "1.6.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "httpx" },
+    { name = "httpx-sse" },
+    { name = "pydantic" },
+    { name = "pydantic-settings" },
+    { name = "sse-starlette" },
+    { name = "starlette" },
+    { name = "uvicorn" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/mcp/1.6.0/mcp-1.6.0.tar.gz", hash = "sha256:d9324876de2c5637369f43161cd71eebfd803df5a95e46225cab8d280e366723" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/mcp/1.6.0/mcp-1.6.0-py3-none-any.whl", hash = "sha256:7bd24c6ea042dbec44c754f100984d186620d8b841ec30f1b19eda9b93a634d0" },
+]
+
+[[package]]
+name = "mcp-project"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "arxiv" },
+    { name = "fastmcp" },
+    { name = "pypdf2" },
+    { name = "typing" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "arxiv", specifier = ">=2.1.0" },
+    { name = "fastmcp", specifier = ">=0.1.0" },
+    { name = "pypdf2", specifier = ">=3.0.1" },
+    { name = "typing", specifier = ">=3.10.0.0" },
+]
+
+[[package]]
+name = "mdurl"
+version = "0.1.2"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/mdurl/0.1.2/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/mdurl/0.1.2/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8" },
+]
+
+[[package]]
+name = "pydantic"
+version = "2.11.3"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "annotated-types" },
+    { name = "pydantic-core" },
+    { name = "typing-extensions" },
+    { name = "typing-inspection" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic/2.11.3/pydantic-2.11.3.tar.gz", hash = "sha256:7471657138c16adad9322fe3070c0116dd6c3ad8d649300e3cbdfe91f4db4ec3" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic/2.11.3/pydantic-2.11.3-py3-none-any.whl", hash = "sha256:a082753436a07f9ba1289c6ffa01cd93db3548776088aa917cc43b63f68fa60f" },
+]
+
+[[package]]
+name = "pydantic-core"
+version = "2.33.1"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1.tar.gz", hash = "sha256:bcc9c6fdb0ced789245b02b7d6603e17d1563064ddcfc36f046b61c0c05dd9df" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-macosx_10_12_x86_64.whl", hash = "sha256:6e966fc3caaf9f1d96b349b0341c70c8d6573bf1bac7261f7b0ba88f96c56c24" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:bfd0adeee563d59c598ceabddf2c92eec77abcb3f4a391b19aa7366170bd9e30" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:91815221101ad3c6b507804178a7bb5cb7b2ead9ecd600041669c8d805ebd595" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:9fea9c1869bb4742d174a57b4700c6dadea951df8b06de40c2fedb4f02931c2e" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:1d20eb4861329bb2484c021b9d9a977566ab16d84000a57e28061151c62b349a" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:0fb935c5591573ae3201640579f30128ccc10739b45663f93c06796854405505" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c964fd24e6166420d18fb53996d8c9fd6eac9bf5ae3ec3d03015be4414ce497f" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:681d65e9011f7392db5aa002b7423cc442d6a673c635668c227c6c8d0e5a4f77" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-macosx_10_12_x86_64.whl", hash = "sha256:1293d7febb995e9d3ec3ea09caf1a26214eec45b0f29f6074abb004723fc1de8" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:99b56acd433386c8f20be5c4000786d1e7ca0523c8eefc995d14d79c7a081498" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:35a5ec3fa8c2fe6c53e1b2ccc2454398f95d5393ab398478f53e1afbbeb4d939" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:b172f7b9d2f3abc0efd12e3386f7e48b576ef309544ac3a63e5e9cdd2e24585d" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:9097b9f17f91eea659b9ec58148c0747ec354a42f7389b9d50701610d86f812e" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:cc77ec5b7e2118b152b0d886c7514a4653bcb58c6b1d760134a9fab915f777b3" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d5e3d15245b08fa4a84cefc6c9222e6f37c98111c8679fbd94aa145f9a0ae23d" },
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:ef99779001d7ac2e2461d8ab55d3373fe7315caefdbecd8ced75304ae5a6fc6b" },
+]
+
+[[package]]
+name = "pydantic-settings"
+version = "2.8.1"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "pydantic" },
+    { name = "python-dotenv" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-settings/2.8.1/pydantic_settings-2.8.1.tar.gz", hash = "sha256:d5c663dfbe9db9d5e1c646b2e161da12f0d734d422ee56f567d0ea2cee4e8585" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pydantic-settings/2.8.1/pydantic_settings-2.8.1-py3-none-any.whl", hash = "sha256:81942d5ac3d905f7f3ee1a70df5dfb62d5569c12f51a5a647defc1c3d9ee2e9c" },
+]
+
+[[package]]
+name = "pygments"
+version = "2.19.1"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pygments/2.19.1/pygments-2.19.1.tar.gz", hash = "sha256:61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pygments/2.19.1/pygments-2.19.1-py3-none-any.whl", hash = "sha256:9ea1544ad55cecf4b8242fab6dd35a93bbce657034b0611ee383099054ab6d8c" },
+]
+
+[[package]]
+name = "pypdf2"
+version = "3.0.1"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pypdf2/3.0.1/PyPDF2-3.0.1.tar.gz", hash = "sha256:a74408f69ba6271f71b9352ef4ed03dc53a31aa404d29b5d31f53bfecfee1440" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/pypdf2/3.0.1/pypdf2-3.0.1-py3-none-any.whl", hash = "sha256:d16e4205cfee272fbdc0568b68d82be796540b1537508cef59388f839c191928" },
+]
+
+[[package]]
+name = "python-dotenv"
+version = "1.1.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/python-dotenv/1.1.0/python_dotenv-1.1.0.tar.gz", hash = "sha256:41f90bc6f5f177fb41f53e87666db362025010eb28f60a01c9143bfa33a2b2d5" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/python-dotenv/1.1.0/python_dotenv-1.1.0-py3-none-any.whl", hash = "sha256:d7c01d9e2293916c18baf562d95698754b0dbbb5e74d457c45d4f6561fb9d55d" },
+]
+
+[[package]]
+name = "requests"
+version = "2.31.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "certifi" },
+    { name = "charset-normalizer" },
+    { name = "idna" },
+    { name = "urllib3" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/requests/2.31.0/requests-2.31.0.tar.gz", hash = "sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/requests/2.31.0/requests-2.31.0-py3-none-any.whl", hash = "sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f" },
+]
+
+[[package]]
+name = "rich"
+version = "14.0.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "markdown-it-py" },
+    { name = "pygments" },
+    { name = "typing-extensions", marker = "python_full_version < '3.11'" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/rich/14.0.0/rich-14.0.0.tar.gz", hash = "sha256:82f1bc23a6a21ebca4ae0c45af9bdbc492ed20231dcb63f297d6d1021a9d5725" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/rich/14.0.0/rich-14.0.0-py3-none-any.whl", hash = "sha256:1c9491e1951aac09caffd42f448ee3d04e58923ffe14993f6e83068dc395d7e0" },
+]
+
+[[package]]
+name = "sgmllib3k"
+version = "1.0.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/sgmllib3k/1.0.0/sgmllib3k-1.0.0.tar.gz", hash = "sha256:7868fb1c8bfa764c1ac563d3cf369c381d1325d36124933a726f29fcdaa812e9" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/sgmllib3k/1.0.0/sgmllib3k-1.0.0-py3-none-any.whl", hash = "sha256:ccc4eb2d3bef08cf0a4200e29bee9d9be9fbab74bdd84e247f301338bd87a0c1" },
+]
+
+[[package]]
+name = "shellingham"
+version = "1.5.4"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/shellingham/1.5.4/shellingham-1.5.4.tar.gz", hash = "sha256:8dbca0739d487e5bd35ab3ca4b36e11c4078f3a234bfce294b0a0291363404de" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/shellingham/1.5.4/shellingham-1.5.4-py2.py3-none-any.whl", hash = "sha256:7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686" },
+]
+
+[[package]]
+name = "sniffio"
+version = "1.3.1"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/sniffio/1.3.1/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/sniffio/1.3.1/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2" },
+]
+
+[[package]]
+name = "sse-starlette"
+version = "2.2.1"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "starlette" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/sse-starlette/2.2.1/sse_starlette-2.2.1.tar.gz", hash = "sha256:54470d5f19274aeed6b2d473430b08b4b379ea851d953b11d7f1c4a2c118b419" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/sse-starlette/2.2.1/sse_starlette-2.2.1-py3-none-any.whl", hash = "sha256:6410a3d3ba0c89e7675d4c273a301d64649c03a5ef1ca101f10b47f895fd0e99" },
+]
+
+[[package]]
+name = "starlette"
+version = "0.46.2"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "anyio" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/starlette/0.46.2/starlette-0.46.2.tar.gz", hash = "sha256:7f7361f34eed179294600af672f565727419830b54b7b084efe44bb82d2fccd5" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/starlette/0.46.2/starlette-0.46.2-py3-none-any.whl", hash = "sha256:595633ce89f8ffa71a015caed34a5b2dc1c0cdb3f0f1fbd1e69339cf2abeec35" },
+]
+
+[[package]]
+name = "typer"
+version = "0.15.2"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "click" },
+    { name = "rich" },
+    { name = "shellingham" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/typer/0.15.2/typer-0.15.2.tar.gz", hash = "sha256:ab2fab47533a813c49fe1f16b1a370fd5819099c00b119e0633df65f22144ba5" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/typer/0.15.2/typer-0.15.2-py3-none-any.whl", hash = "sha256:46a499c6107d645a9c13f7ee46c5d5096cae6f5fc57dd11eccbbb9ae3e44ddfc" },
+]
+
+[[package]]
+name = "typing"
+version = "3.10.0.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/typing/3.10.0.0/typing-3.10.0.0.tar.gz", hash = "sha256:13b4ad211f54ddbf93e5901a9967b1e07720c1d1b78d596ac6a439641aa1b130" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/typing/3.10.0.0/typing-3.10.0.0-py3-none-any.whl", hash = "sha256:12fbdfbe7d6cca1a42e485229afcb0b0c8259258cfb919b8a5e2a5c953742f89" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.13.2"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/typing-extensions/4.13.2/typing_extensions-4.13.2.tar.gz", hash = "sha256:e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/typing-extensions/4.13.2/typing_extensions-4.13.2-py3-none-any.whl", hash = "sha256:a439e7c04b49fec3e5d3e2beaa21755cadbbdc391694e28ccdd36ca4a1408f8c" },
+]
+
+[[package]]
+name = "typing-inspection"
+version = "0.4.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/typing-inspection/0.4.0/typing_inspection-0.4.0.tar.gz", hash = "sha256:9765c87de36671694a67904bf2c96e395be9c6439bb6c87b5142569dcdd65122" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/typing-inspection/0.4.0/typing_inspection-0.4.0-py3-none-any.whl", hash = "sha256:50e72559fcd2a6367a19f7a7e610e6afcb9fac940c650290eed893d61386832f" },
+]
+
+[[package]]
+name = "urllib3"
+version = "2.4.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/urllib3/2.4.0/urllib3-2.4.0.tar.gz", hash = "sha256:414bc6535b787febd7567804cc015fee39daab8ad86268f1310a9250697de466" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/urllib3/2.4.0/urllib3-2.4.0-py3-none-any.whl", hash = "sha256:4e16665048960a0900c702d4a66415956a584919c03361cac9f1df5c5dd7e813" },
+]
+
+[[package]]
+name = "uvicorn"
+version = "0.34.0"
+source = { registry = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/simple" }
+dependencies = [
+    { name = "click" },
+    { name = "h11" },
+    { name = "typing-extensions", marker = "python_full_version < '3.11'" },
+]
+sdist = { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/uvicorn/0.34.0/uvicorn-0.34.0.tar.gz", hash = "sha256:404051050cd7e905de2c9a7e61790943440b3416f49cb409f965d9dcd0fa73e9" }
+wheels = [
+    { url = "https://artifactory.infra.ant.dev/artifactory/api/pypi/pypi-all/uvicorn/0.34.0/uvicorn-0.34.0-py3-none-any.whl", hash = "sha256:023dc038422502fa28a09c7a30bf2b6991512da7dcdb8fd35fe57cfc154126f4" },
+]
